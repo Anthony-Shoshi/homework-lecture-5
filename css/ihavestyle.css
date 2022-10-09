@@ -16,11 +16,13 @@
 
 body {
     background-color: #feffae;
+    width: 800px;
+    margin: auto;
 }
 
 p {
     color: #16a978;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
 h2 {
@@ -33,7 +35,11 @@ table {
     font-family: anthony;
 }
 
-table thead {
+table tbody tr td:nth-child(2) {
+    background-color: red;
+}
+
+.table_head {
     background-color: rgb(145, 145, 145);
     color: #FFFFFF;
 }

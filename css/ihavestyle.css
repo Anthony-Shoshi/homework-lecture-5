@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+
+@font-face {
+    font-family: 'anthony';
+    src: url('../font/SourceSansPro-Black.ttf');
+    src: url('../font/SourceSansPro-BlackItalic.ttf');
+    src: url('../font/SourceSansPro-Bold.ttf');
+    src: url('../font/SourceSansPro-BoldItalic.ttf');
+    src: url('../font/SourceSansPro-ExtraLight.ttf');
+    src: url('../font/SourceSansPro-ExtraLightItalic.ttf');
+    src: url('../font/SourceSansPro-Italic.ttf');
+    src: url('../font/SourceSansPro-Light.ttf');
+    src: url('../font/SourceSansPro-LightItalic.ttf');
+    src: url('../font/SourceSansPro-Regular.ttf');
+}
+
+body {
+    background-color: #feffae;
+}
+
+p {
+    color: #16a978;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: rgb(74, 57, 224);
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    background-color: rgb(248, 192, 129);
+    font-family: anthony;
+}
+
+table thead {
+    background-color: rgb(145, 145, 145);
+    color: #FFFFFF;
+}
+
+ul li {
+    color: rgb(212, 100, 48);
+}
+
+form {
+    background-color: rgb(136, 245, 181);
+}
